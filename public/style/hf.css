@@ -1,0 +1,16 @@
+.logo{
+    margin-left: 50px;
+    padding-right: 20px;
+}
+
+.dm{
+    border: white;
+    color: black;
+    font-weight: bold;
+}
+.drop-menu:hover .drop{
+display: inline;
+}
+.drop a {
+    font-weight: bold;
+}

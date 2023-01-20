@@ -1,0 +1,171 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.tophead{
+    color: rgba(255, 255, 255, 0.76);
+    justify-content: space-between;
+}
+.maincontainer{
+    background-color: rgb(38, 38, 38);
+}
+.tophead h4{
+    padding-top:10px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.left{
+    padding-right: 10px;
+}
+.tophead ul{
+    list-style: none;
+}
+.dm{
+    color: black;
+    padding-top: 2px;
+    
+}
+.dm:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.76); 
+} 
+.navitm{
+    margin-left: 300px;
+}
+.drop{
+    display: none;
+}
+.bg-text{
+    font-weight: bold;
+    z-index: 2;
+    position:absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cnt{
+    position: relative;
+    padding-left: 200px;
+}
+.text-block{
+    position: absolute;
+    padding-left: 100px;
+    top:40%;
+    left: 6%;
+}
+.text-block h1{
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}
+.botton{
+    margin-left: 200px;
+}
+.text-block h2{
+    margin-left: 120px;
+}
+.text-block p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:190px;
+}
+.lrn{
+    margin-left: 220px;
+}
+.ieleven{
+    position: absolute;
+    top:40%;
+    right:6%;
+    left: 55%;
+}
+.ieleven h1{
+    font-weight: bold;
+    font-size: 44px;
+    text-align: center;
+}
+.ieleven p{
+    text-align: center;
+}
+.ieleven button{
+  margin-left: 250px;
+}
+.title{
+    margin-bottom: 50px;
+}
+
+.title h1{
+    display: inline;
+}
+
+.title h1 span{
+    display: block;
+    height: 6px;
+    width: 50%;
+    background-color: black;
+    border-top-right-radius: 10px;
+}
+.card img{
+    width: calc(100%5);
+}
+.row{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.row .col{
+    width: calc(100%/4);
+    padding: 10px;
+
+}
+.card{
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 1px 1px 3px black;
+
+}
+.card img{
+    width: 100%;
+}
+.col:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    
+}
+.col:hover .card{
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    
+}
+.dropdown-menu a{
+    font-weight: 500;
+}
+.dropdown button{
+    font-weight: bold;
+}
+.ttl{
+    margin-top: 0;
+
+}
+.ttl a{
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 800px) {
+   .logo{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+   }
+    }

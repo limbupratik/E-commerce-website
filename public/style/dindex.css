@@ -1,0 +1,38 @@
+
+.card-2{
+    box-shadow:2px 2px 5px black;
+    height: 200px;
+    background-color: #63c7ff;
+    border-radius: 10px;
+}
+.card-4{
+    box-shadow:2px 2px 5px black;
+    height: 200px;
+    background-color: #6dd4b1;
+    border-radius: 10px;
+}
+.card-4:hover{
+    transform: scale(1.03);
+}
+.card-2:hover{
+    transform: scale(1.03);
+}
+h4{
+    font-size: 17px;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    
+    font-weight: 900;
+    color: fff;
+    margin-bottom: 7px;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    color: fff;
+}
+.head tr td{
+    text-align: center;
+}

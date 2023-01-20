@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+span{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-color:  #171717;
+}
+#addtocard:hover{
+box-shadow: 1px 1px 5px #991527;
+}
