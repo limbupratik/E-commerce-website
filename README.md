@@ -20,3 +20,4 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 With the using laravel as a backend this project is done.To run this, create a database in the localhost and migrate all the data using "php artisan migrate". this will migrate all the table which is made in the migaration folder.
+       Enjoy Have a Nice Day
